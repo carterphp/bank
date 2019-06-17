@@ -2,7 +2,7 @@
   "name": "carterphp/bank",
   "description": "A php class for getting bank and bank card information",
   "license": "MIT",
-  "minimum-stability":"1.0.3",
+  "minimum-stability":"beta",
   "authors": [
     {
       "name": "Carter Zhang",
