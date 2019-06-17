@@ -2,7 +2,7 @@
 /*****
  * 银行和银行卡信息查询
  ***/
-namespace Bank;
+namespace Carter\Bank;
 
 class Bankcard
 {
