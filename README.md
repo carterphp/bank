@@ -48,15 +48,13 @@ return $res;
 {
     "code": 0,
     "msg": "操作成功",
-    "data": [
-        {
+    "data": {
             "card_style": "龙卡储蓄卡(银联卡)",   //卡类型
             "bank_code": "105100000017",        //银行联行号
             "bank_name": "建设银行",             //名称
             "card_type": "储蓄卡",               //卡种
             "letter_code": "CCB"                //银行字母编码
-        }
-    ]
+    }
 }
 ```
 
@@ -76,12 +74,10 @@ return $res;
 {
     "code": 0,
     "msg": "操作成功",
-    "data": [
-        {
+    "data": {
             "bank_code": "01020000",   //联行号
             "bank_name": "工商银行"     //名称
-        }
-    ]
+    }
 }
 ```
 

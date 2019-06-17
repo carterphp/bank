@@ -931,7 +931,7 @@ class Bankcard
                 'card_type' => $data[5],    //卡种
                 'letter_code' => $data[6],   //银行字母编码
             ];
-            return json_encode(['code' => 0,'msg' => '操作成功','data' => [$data_new]],JSON_UNESCAPED_UNICODE);
+            return json_encode(['code' => 0,'msg' => '操作成功','data' => $data_new],JSON_UNESCAPED_UNICODE);
         }else{
             return json_encode(['code' => 101,'msg' => '未找到对应银行卡信息','data' => []],JSON_UNESCAPED_UNICODE);
         }
@@ -978,7 +978,7 @@ class Bankcard
                 'bank_code' => $data[0],  //联行号
                 'bank_name' => $data[1],  //名称
             ];
-            return json_encode(['code' => 0,'msg' => '操作成功','data' => [$data_new]],JSON_UNESCAPED_UNICODE);
+            return json_encode(['code' => 0,'msg' => '操作成功','data' => $data_new],JSON_UNESCAPED_UNICODE);
         } else {
             return json_encode(['code' => 102,'msg' => '未找到对应银行信息','data' => []],JSON_UNESCAPED_UNICODE);
         }
