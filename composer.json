@@ -1,0 +1,13 @@
+{
+  "name": "carterphp/bankcard",
+  "description": "A php class for getting bank and bank card information",
+  "authors": [
+    {
+      "name": "Carter Zhang",
+      "email": "674333423@qq.com"
+    }
+  ],
+  "require": {
+    "php": "^5.4"
+  }
+}
